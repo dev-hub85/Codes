@@ -58,7 +58,7 @@ def print_solution(solution, size):
 
 
 def four_queens_csp():
-    size = 4
+    size = 8
     variables = list(range(size))  # Columns of the chessboard
     print(variables)
     domains = {var: list(range(size)) for var in variables}  # Rows for each column
